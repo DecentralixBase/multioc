@@ -148,7 +148,7 @@ function App() {
             animate={{ scale: 1, opacity: 1 }}
             transition={{ duration: 0.5 }}
           >
-            <h2 className="text-2xl font-audiowide mb-4">Welcome to MULTIOC</h2>
+            <h2 className="text-2xl font-audiowide mb-4">Welcome to zkScan</h2>
             <p className="text-gray-300 mb-6">Enter a wallet address to analyze on-chain data across multiple blockchains</p>
             <div className="hud-circle w-24 h-24 mx-auto pulse">
               <span className="text-neon-blue">READY</span>
@@ -157,7 +157,7 @@ function App() {
         )}
         
         <footer className="mt-12 text-center text-sm text-gray-500">
-          <p>MULTIOC Analytics • Powered by Public Blockchain APIs</p>
+          <p>zkScan • Powered by Public Blockchain APIs</p>
         </footer>
       </div>
     </motion.div>
